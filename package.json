@@ -1,0 +1,23 @@
+{
+  "name": "new_opencv4js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^2.3.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "googleapis": "^36.0.0",
+    "opn": "^5.4.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "server-destroy": "^1.0.1"
+  }
+}

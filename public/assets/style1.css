@@ -1,0 +1,127 @@
+body, div, p {
+    font: 400 14px/22px Roboto,sans-serif;
+}
+canvas, img, video {
+    border: 1px solid black;
+}
+td {
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+}
+button {
+    display: inline-block;
+    color: #fff;
+    background-color: #39405a;
+    border-color: #2e6da4;
+    padding: 3px 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button[disabled] {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+.control {
+    margin-bottom: 3px;
+}
+.err {
+    color: red;
+    font-weight: bold;
+}
+.caption {
+    margin: 0;
+    font-weight: bold;
+}
+.code {
+    padding: 4px 6px;
+    margin: 4px 8px 4px 2px;
+    background-color: #FBFCFD;
+    border: 1px solid #C4CFE5;
+    font-family: monospace, fixed;
+    font-size: 13px;
+    min-height: 13px;
+    line-height: 1.0;
+    text-wrap: unrestricted;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.hidden {
+    display: none;
+}
+.small {
+    max-width: 300px;
+}
+
+#canvasOutput {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+/* Camera toggle */
+
+.circle {
+  display: block;
+  position: relative;
+  padding: 0;
+  z-index: 98;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: #3F51B5;
+  transition: 0.2s;
+  text-align: center;
+}
+
+  .plusminus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+  }
+
+  .circle:hover {
+    cursor: pointer;
+    background-color: lighten(#3F51B5, 10%);
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
+  }
+
+  .wrapper:hover {
+    cursor: pointer;
+    background-color: lighten(#3F51B5, 10%);
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
+  }
+
+  .plusminus:hover {
+    cursor: pointer;
+    background-color: lighten(#3F51B5, 10%);
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
+  }
+
+  
